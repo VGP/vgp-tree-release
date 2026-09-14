@@ -6,7 +6,7 @@
 
 ### [roadies_v1.1.16b.nwk](./roadies_v1.1.16b.nwk) 
 
-This is the tree inferred by ROADIES. 
+This is the tree inferred by [ROADIES](https://turakhia.ucsd.edu/ROADIES/). 
 
 *  We sampled gene trees by running ROADIES in its deep mode in four stages:
 
@@ -15,7 +15,7 @@ This is the tree inferred by ROADIES.
 	3. Shark-focused run (partitioned dataset): To confidently resolve the relative placement of sharks compared to fishes and other vertebrates, we partitioned the dataset into three clades (sharks, fishes, and all remaining species) and enabled ROADIES to sample 8,000 loci evenly across the three groups, resulting in 1,848 gene trees post-filtration.
 	4. Fish-focused subset (181 species: 178 fishes + 3 Gymnophiona as outgroups): Given the challenges in resolving the deep divergence within fishes, we sampled 160,000 loci from this subset, which yielded 37,766 gene trees.
 
-  **Total:** $29,239+54,288+1,848+37,766=123,141$ gene trees in total. These gene trees are provided in [this github repo](https://github.com/VGP/vgp-trees/tree/main/phase-1).
+    **Total:** $29,239+54,288+1,848+37,766=123,141$ gene trees in total. These gene trees are provided in [another GitHub repo](https://github.com/VGP/vgp-trees/tree/main/phase-1).
 
 * We set the `MIN_ALIGN` to 10% of the number of input genomes for all partitions except for the bird-focused subset, where we set this parameter to 4. All other parameters were set to their default settings.
 
@@ -55,4 +55,4 @@ Starting from  `roadies_v1.1.16b.nwk`, we
  * Dropped 6 large genomes that didn't make it to Cactus:(`GCA_026652325.1`, `GCA_036971685.2`, `GCA_040939525.1`, `GCA_964204655.1`, `GCA_964261635.1`, `GCA_964263255.1`, `GCF_040938575.1`),
  * Added a second human (`GCA_000001405.15`) and mouse (`GCA_000001635.9`). 
  * Renamed `GCA_036971685.2` to `GCF_037038585.1` because after creating the ROADIES tree, it was determined that the latter was a better assembly.
- * Gave names to internal nodes
+ * Gave names to all the animals (internal nodes, really!).
