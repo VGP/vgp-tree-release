@@ -1,7 +1,7 @@
-|file | description| #nodes | #leaves | #dichotomies | #leaf labels | #inner labels |
+|file | description| #nodes | #leaves | #dichotomies | branch lengths | inner labels |
 |---|---|---:|---:|---:|---:|---:|
-| [roadies_v1.1.16b.nwk](./roadies_v1.1.16b.nwk) | ROADIES tree, as inferred, including all 581 species | 1161 | 581 | 580 | 581 | 579 |
-| [vgp-577way.nwk](vgp-577way.nwk) | Cactus guide tree, excludes 6 large genomes, adds a second human and mouse, and renames one. See below| 1153 | 577 | 576 | 577 | 575 |
+| [roadies_v1.1.16b.nwk](./roadies_v1.1.16b.nwk) | ROADIES tree, as inferred, including all 581 species | 1161 | 581 | 580 |substitution unit | [localPP support](doi.org/10.1093/molbev/msw079) |
+| [vgp-577way.nwk](vgp-577way.nwk) | Cactus guide tree, excludes 6 large genomes, adds a second human and mouse, and renames one. See below| 1153 | 577 | 576 | substitution unit | Cactus Node names |
 
 
 ### [roadies_v1.1.16b.nwk](./roadies_v1.1.16b.nwk) 
