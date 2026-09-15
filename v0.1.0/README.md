@@ -12,4 +12,4 @@
 
 * Gene trees are inferred using IQ-TREE
 
-* The species tree is inferred using ASTRAL-Pro-3. It differed from the [v.0.0.0](../v.0.0.0) ROADIES tree in 13 (2.3%) of its branches: CoreLandbirdsAnc02, BirdsAnc4, LaridaeAnc4, CoreWaterbirdsAnc02, ColumbeaAnc0, NeobatrachiaHyloideaAnc2, RayFinnedFishesAnc11, RayFinnedFishesAnc21, CichlidaeAnc2, ScombridaeAnc2, RayFinnedFishesAnc57, CartilaginousFishesAnc2, CartilaginousFishesAnc6 (labels from the Cactus guide tree). See [this other repository](https://github.com/VGP/vgp-trees/tree/main/phase-1-cactus/multicopy) for more details  
+* The species tree is inferred using ASTRAL-Pro-3. It differed from the [v0.0.0](../v0.0.0) ROADIES tree in 13 (2.3%) of its branches: CoreLandbirdsAnc02, BirdsAnc4, LaridaeAnc4, CoreWaterbirdsAnc02, ColumbeaAnc0, NeobatrachiaHyloideaAnc2, RayFinnedFishesAnc11, RayFinnedFishesAnc21, CichlidaeAnc2, ScombridaeAnc2, RayFinnedFishesAnc57, CartilaginousFishesAnc2, CartilaginousFishesAnc6 (labels from the Cactus guide tree). See [this other repository](https://github.com/VGP/vgp-trees/tree/main/phase-1-cactus/multicopy) for more details  
