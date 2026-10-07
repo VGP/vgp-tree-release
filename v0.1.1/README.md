@@ -1,6 +1,8 @@
 |file | description| #nodes | #leaves | #dichotomies | branch lengths | inner labels |
 |---|---|---:|---:|---:|---:|---:|
 | [astralpro.l6p1.tre](./astralpro.l6p1.tre) | ASTRAL-Pro tree plus kxProAnne1 (lungfish)| 1129 | 565 | 564 | substitution unit | [localPP support](doi.org/10.1093/molbev/msw079) |
+| [astralpro.l6p1.dated.nwk](./astralpro.l6p1.dated.nwk) | Dated ASTRAL-Pro tree plus kxProAnne1 (lungfish)| 1129 | 565 | 564 | time unit | None |
+| [astralpro.l6p1.dated.nexus](./astralpro.l6p1.dated.nexus) | Dated ASTRAL-Pro tree plus kxProAnne1 (lungfish) in **nexus** format| 1129 | 565 | 564 | time unit | Multi-attreibute annotations, including date CIs|
 
 
 
@@ -11,3 +13,5 @@
 ~~~bash
 nw_reroot -s astralpro.l6p1.tre GCF_030490865.1|nw_reroot -s - GCA_964187855.1 GCA_048934315.1 |nw_order -cn -
 ~~~
+
+* We dated using MD-Cat.
