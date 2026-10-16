@@ -50,6 +50,13 @@ This is the tree inferred by [ROADIES](https://turakhia.ucsd.edu/ROADIES/).
 * See [annotations.tsv](annotations.tsv) for an annotation file. 
 	* `GCA_049190665.1` had the wrong label initially (salamanderfish). This genome was later suppressed and replaced with a proper arrowtail genome.
 
+### [roadies_v1.1.16b.dated.nwk](./roadies_v1.1.16b.dated.nwk) and [roadies_v1.1.16b.dated.nexus](./roadies_v1.1.16b.dated.nexus)
+
+Same topology as the tree above, but dated to have branch lengths in the SU unit. 
+
+* We dated using MD-Cat. See <https://github.com/VGP/vgp-dating/blob/main/dating/README.md>
+
+
 ### [vgp-577way.nwk](vgp-577way.nwk)
 
 Starting from  `roadies_v1.1.16b.nwk`, we
