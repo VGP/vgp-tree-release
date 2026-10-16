@@ -14,4 +14,4 @@
 nw_reroot -s astralpro.l6p1.tre GCF_030490865.1|nw_reroot -s - GCA_964187855.1 GCA_048934315.1 |nw_order -cn -
 ~~~
 
-* We dated using MD-Cat.
+* We dated using MD-Cat. See <https://github.com/VGP/vgp-dating/blob/main/dating/README.md>
