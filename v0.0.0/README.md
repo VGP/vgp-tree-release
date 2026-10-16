@@ -1,12 +1,14 @@
+## NOTE: The files below used to be called `roadies.v1.1.16b.*`. We renamed the file to avoid future confusion. 
+
 |file | description| #nodes | #leaves | #dichotomies | branch lengths | inner labels |
 |---|---|---:|---:|---:|---:|---:|
-| [roadies_v1.1.16b.nwk](./roadies_v1.1.16b.nwk) | ROADIES tree, as inferred, including all 581 species | 1161 | 581 | 580 |substitution unit | [localPP support](doi.org/10.1093/molbev/msw079) |
-| [roadies_v1.1.16b.dated.nexus](./roadies_v1.1.16b.dated.nexus) | Dated ROADIES tree in **nexus** format including all 581 species | 1161 | 581 | 580 |Time unit | multi-attribute annotations, including CI |
-| [roadies_v1.1.16b.dated.nwk](./roadies_v1.1.16b.dated.nwk) | Dated ROADIES tree including all 581 species | 1161 | 581 | 580 |Time unit | No internal nodes |
+| [roadies.nwk](./roadies.nwk) | ROADIES tree, as inferred, including all 581 species | 1161 | 581 | 580 |substitution unit | [localPP support](doi.org/10.1093/molbev/msw079) |
+| [roadies.dated.nexus](./roadies.dated.nexus) | Dated ROADIES tree in **nexus** format including all 581 species | 1161 | 581 | 580 |Time unit | multi-attribute annotations, including CI |
+| [roadies.dated.nwk](./roadies.dated.nwk) | Dated ROADIES tree including all 581 species | 1161 | 581 | 580 |Time unit | No internal nodes |
 | [vgp-577way.nwk](vgp-577way.nwk) | Cactus guide tree, excludes 6 large genomes, adds a second human and mouse, and renames one. See below| 1153 | 577 | 576 | substitution unit | Cactus Node names |
 
 
-### [roadies_v1.1.16b.nwk](./roadies_v1.1.16b.nwk) 
+### [roadies.nwk](./roadies.nwk) 
 
 This is the tree inferred by [ROADIES](https://turakhia.ucsd.edu/ROADIES/). 
 
@@ -40,7 +42,7 @@ This is the tree inferred by [ROADIES](https://turakhia.ucsd.edu/ROADIES/).
 	astral-pro3 -t 64 -C -c roadies_v1.1.15.nwk  -i gene_trees_v1.1.9.nwk -o roadies_v1.1.16a.nwk
 	~~~
 
-* astral-pro3 cannot infer the position and length of the root branch. We manually copied the branch lengths of the `GCF_902459465.1` and `GCA_040954625.2` and the common ancestor from `roadies_v1.1.14.nwk` onto `roadies_v1.1.16a.nwk` to obtain the final tree `roadies_v1.1.16b.nwk`. 
+* astral-pro3 cannot infer the position and length of the root branch. We manually copied the branch lengths of the `GCF_902459465.1` and `GCA_040954625.2` and the common ancestor from `roadies_v1.1.14.nwk` onto `roadies_v1.1.16a.nwk` to obtain the final tree `roadies.nwk`. 
 
 * Support values on the species tree are between 0 and 1. Above 0.95 is traditionally considered high. Below 0.8 is considered low. 
 * Branch lengths are in units of the expected number of substitutions per site. 
@@ -50,7 +52,7 @@ This is the tree inferred by [ROADIES](https://turakhia.ucsd.edu/ROADIES/).
 * See [annotations.tsv](annotations.tsv) for an annotation file. 
 	* `GCA_049190665.1` had the wrong label initially (salamanderfish). This genome was later suppressed and replaced with a proper arrowtail genome.
 
-### [roadies_v1.1.16b.dated.nwk](./roadies_v1.1.16b.dated.nwk) and [roadies_v1.1.16b.dated.nexus](./roadies_v1.1.16b.dated.nexus)
+### [roadies.dated.nwk](./roadies.dated.nwk) and [roadies.dated.nexus](./roadies.dated.nexus)
 
 Same topology as the tree above, but dated to have branch lengths in the SU unit. 
 
@@ -59,7 +61,7 @@ Same topology as the tree above, but dated to have branch lengths in the SU unit
 
 ### [vgp-577way.nwk](vgp-577way.nwk)
 
-Starting from  `roadies_v1.1.16b.nwk`, we
+Starting from  `roadies.nwk`, we
 
  * Dropped 6 large genomes that didn't make it to Cactus:(`GCA_026652325.1`, `GCA_036971685.2`, `GCA_040939525.1`, `GCA_964204655.1`, `GCA_964261635.1`, `GCA_964263255.1`, `GCF_040938575.1`),
  * Added a second human (`GCA_000001405.15`) and mouse (`GCA_000001635.9`). 
