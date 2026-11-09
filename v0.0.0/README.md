@@ -9,8 +9,8 @@
 |file | description | #leaves (genomes) | #species | branch lengths | inner labels |
 |---|---|---:|---:|---:|---:|
 | [roadies.nwk](./roadies.nwk) | ROADIES tree, as inferred, including all 581 genomes  | 581 | 579 |substitution unit | [localPP support](doi.org/10.1093/molbev/msw079) |
-| [roadies.dated.round2.nexus](./roadies.dated.nexus) | Dated ROADIES tree in **nexus** format including all 581 genomes  | 581 | 579 |Time unit | multi-attribute annotations, including CI |
-| [roadies.dated.round2.nwk](./roadies.dated.nwk) | Dated ROADIES tree including all 581 genomes  | 581 | 579 |Time unit | No internal nodes |
+| [roadies.dated.round2.nexus](./roadies.dated.round2.nexus) | Dated ROADIES tree in **nexus** format including all 581 genomes  | 581 | 579 |Time unit | multi-attribute annotations, including CI |
+| [roadies.dated.round2.nwk](./roadies.dated.round2.nwk) | Dated ROADIES tree including all 581 genomes  | 581 | 579 |Time unit | No internal nodes |
 | [vgp-577way.nwk](vgp-577way.nwk) | Cactus guide tree, same as ROADIES, but excludes 6 large genomes, adds a second human and mouse, and renames one. See below | 577 | 573 | substitution unit | Cactus Node names |
 
 
