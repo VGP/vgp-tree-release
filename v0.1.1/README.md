@@ -1,8 +1,14 @@
-|file | description| #nodes | #leaves | #dichotomies | branch lengths | inner labels |
+## Important notes
+
+* Somehow our pipeliens had renamed `GCA_000001405.15` to `GCA_000001405.5`. We have manually fixed that in the latest version of the trees on **Nov 9, 2026**, keeping the old file under [./obsolete](obsolete). 
+* We dated the tree after eliminating the two non-vGP genomes (`GCA_000001405.15`, `GCA_000001635.9`) included in Cactus (and thus, our ASTARL tree) and re-estimating branch lengths. 
+
+|file | description| #leaves | #species | branch lengths | inner labels |
 |---|---|---:|---:|---:|---:|---:|
-| [astralpro.l6p1.tre](./astralpro.l6p1.tre) | ASTRAL-Pro tree plus kxProAnne1 (lungfish)| 1129 | 565 | 564 | substitution unit | [localPP support](doi.org/10.1093/molbev/msw079) |
-| [astralpro.l6p1.dated.nwk](./astralpro.l6p1.dated.nwk) | Dated ASTRAL-Pro tree plus kxProAnne1 (lungfish)| 1129 | 565 | 564 | time unit | None |
-| [astralpro.l6p1.dated.nexus](./astralpro.l6p1.dated.nexus) | Dated ASTRAL-Pro tree plus kxProAnne1 (lungfish) in **nexus** format| 1129 | 565 | 564 | time unit | Multi-attreibute annotations, including date CIs|
+| [astralpro.l6p1.tre](./astralpro.l6p1.tre) | ASTRAL-Pro tree plus kxProAnne1 (lungfish) | 565 | 561 | substitution unit | [localPP support](doi.org/10.1093/molbev/msw079) |
+| [astralpro.l6p1.perspecies.tre](./astralpro.l6p1.perspecies.tre) | same as above, but eliminating the non-VGP human (`GCA_000001405.15`) and mouse genomes (`GCA_000001635.9`) | 563 | 561 | substitution unit | [localPP support](doi.org/10.1093/molbev/msw079) |
+| [astralpro.l6p1.perspecies.dated.nwk](./astralpro.l6p1.perspecies.dated.nwk) | Dated ASTRAL-Pro tree plus kxProAnne1 (lungfish) | 565 | 561 | time unit | None |
+| [astralpro.l6p1.perspecies.dated.nexus](./astralpro.l6p1.perspecies.dated.nexus) | Dated ASTRAL-Pro tree plus kxProAnne1 (lungfish) in **nexus** format | 565 | 561 | time unit | Multi-attreibute annotations, including date CIs|
 
 
 
@@ -10,8 +16,11 @@
 
 * We start from the dataset for [../v0.1.0](../v0.1.0) and add one more species, lungfish (kxProAnne1), which was missing from the Cactus using a LASTZ-based pipeline. Our pipeline found this species for 4350 loci. We redid gene trees and reran ASTRAL-Pro as v0.1.0. Then, we rerooted and ordered branches as shown below. 
 
-~~~bash
-nw_reroot -s astralpro.l6p1.tre GCF_030490865.1|nw_reroot -s - GCA_964187855.1 GCA_048934315.1 |nw_order -cn -
-~~~
+	~~~bash
+	nw_reroot -s astralpro.l6p1.tre GCF_030490865.1|nw_reroot -s - GCA_964187855.1 GCA_048934315.1 |nw_order -cn -
+	~~~
 
-* We dated using MD-Cat. See <https://github.com/VGP/vgp-dating/blob/main/dating/README.md>
+* We dated using MD-Cat. See <https://github.com/VGP/vgp-dating/blob/main/dating/README.md>. 
+
+* For genome name mappings, see [annotations.tsv](./annotations.tsv)
+
