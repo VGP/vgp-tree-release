@@ -1,9 +1,9 @@
-## Please obtain the updated dated tree if you downloaded before Nov, 9, 2026
+## Please obtain the updated dated tree if you downloaded before Nov. 9, 2026
 ## Important notes
 
 
-1. We first released a v0.1.1 dated tree, only to later find out that some calibration points could be improved. We then **released a second version of *the dated* tree on Nov, 9, 2026**, changing the name to `astralpro.l6p1.dated.round2`. The previous files are moved ot the `obsolete` folder. 
-2. We dated the tree after eliminating the two non-vGP genomes (`GCA_000001405.15`, `GCA_000001635.9`) included in Cactus (and thus, our ASTARL tree) and re-estimating branch lengths. 
+1. We first released a v0.1.1 dated tree, only to later find out that some calibration points could be improved. We then **released a second version of *the dated* tree on Nov, 9, 2026**, changing the name to `astralpro.l6p1.dated.round2`. The previous files are moved to the `obsolete` folder. 
+2. We dated the tree after eliminating the two non-vGP genomes (`GCA_000001405.15`, `GCA_000001635.9`) included in Cactus (and thus, our ASTARL tree) from the final tree. 
 3. Somehow our pipelines had renamed `GCA_000001405.15` to `GCA_000001405.5`. We have manually fixed that in the latest version of the trees on **Nov 9, 2026**, keeping the old file under [./obsolete](obsolete). 
 
 |file | description| #leaves | #species | branch lengths | inner labels |
