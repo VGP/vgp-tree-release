@@ -7,7 +7,7 @@
 3. Somehow our pipelines had renamed `GCA_000001405.15` to `GCA_000001405.5`. We have manually fixed that in the latest version of the trees on **Nov 9, 2026**, keeping the old file under [./obsolete](obsolete). 
 
 |file | description| #leaves | #species | branch lengths | inner labels |
-|---|---|---:|---:|---:|---:|---:|
+|---|---|---:|---:|---:|---:|
 | [astralpro.l6p1.tre](./astralpro.l6p1.tre) | ASTRAL-Pro tree plus kxProAnne1 (lungfish) | 565 | 561 | substitution unit | [localPP support](doi.org/10.1093/molbev/msw079) |
 | [astralpro.l6p1.perspecies.tre](./astralpro.l6p1.perspecies.tre) | same as above, but eliminating the non-VGP human (`GCA_000001405.15`) and mouse genomes (`GCA_000001635.9`) | 563 | 561 | substitution unit | [localPP support](doi.org/10.1093/molbev/msw079) |
 | [astralpro.l6p1.dated.round2.nwk](./astralpro.l6p1.dated.round2.nwk) | Dated ASTRAL-Pro tree plus kxProAnne1 (lungfish), dropping the two non-VGP genomes | 563 | 561 | time unit | None |
