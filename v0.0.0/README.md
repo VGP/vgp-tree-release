@@ -6,9 +6,8 @@
 3. The number of species and genomes is not the same because some species (e.g., wolves) have more than one representative. 
 4. There was some confusion about the band-tailed pigeon, with the initial ROADIES tree having label `GCA_036971685.2` and then switching to `GCF_037038585.1` in subsequent releases. The final genome released by VGP is `GCF_037038585.1`. 
 
-
 |file | description | #leaves (genomes) | #species | branch lengths | inner labels |
-|---|---|---:|---:|---:|---:|---:|
+|---|---|---:|---:|---:|---:|
 | [roadies.nwk](./roadies.nwk) | ROADIES tree, as inferred, including all 581 species  | 581 | 579 |substitution unit | [localPP support](doi.org/10.1093/molbev/msw079) |
 | [roadies.dated.round2.nexus](./roadies.dated.nexus) | Dated ROADIES tree in **nexus** format including all 581 species  | 581 | 579 |Time unit | multi-attribute annotations, including CI |
 | [roadies.dated.round2.nwk](./roadies.dated.nwk) | Dated ROADIES tree including all 581 species  | 581 | 579 |Time unit | No internal nodes |
