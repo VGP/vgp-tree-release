@@ -4,7 +4,7 @@
 * We dated the tree after eliminating the two non-vGP genomes (`GCA_000001405.15`, `GCA_000001635.9`) included in Cactus (and thus, our ASTARL tree) and re-estimating branch lengths. 
 
 |file | description| #leaves | #species | branch lengths | inner labels |
-|---|---|---:|---:|---:|---:|---:|
+|---|---|---:|---:|---:|---:|
 | [astralpro.l6p1.tre](./astralpro.l6p1.tre) | ASTRAL-Pro tree plus kxProAnne1 (lungfish) | 565 | 561 | substitution unit | [localPP support](doi.org/10.1093/molbev/msw079) |
 | [astralpro.l6p1.perspecies.tre](./astralpro.l6p1.perspecies.tre) | same as above, but eliminating the non-VGP human (`GCA_000001405.15`) and mouse genomes (`GCA_000001635.9`) | 563 | 561 | substitution unit | [localPP support](doi.org/10.1093/molbev/msw079) |
 | [astralpro.l6p1.perspecies.dated.nwk](./astralpro.l6p1.perspecies.dated.nwk) | Dated ASTRAL-Pro tree plus kxProAnne1 (lungfish), dropping the two non-VGP genomes | 563 | 561 | time unit | None |
