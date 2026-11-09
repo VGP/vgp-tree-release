@@ -1,11 +1,17 @@
-## NOTE: The files below used to be called `roadies.v1.1.16b.*`. We renamed the file to avoid future confusion. 
+## Please obtain the updated dated tree if you downloaded before Nov, 9, 2026
+### CRUCIAL NOTES: 
 
-|file | description| #nodes | #leaves (genomes) | #species | branch lengths | inner labels |
+1. We first released a v0.0.0 dated tree, only to later find out that some calibration points could be improved. We then **released a second version of *the dated* tree on Nov, 9, 2026**, changing the name to `roadies.dated.round2.nwk`. The previous files are moved ot the `obsolete` folder. 
+2. The files below used to be called `roadies.v1.1.16b.*`. We renamed the file to avoid future confusion. 
+3. The number of species and genomes is not the same because some species have more than one representative. 
+
+
+|file | description | #leaves (genomes) | #species | branch lengths | inner labels |
 |---|---|---:|---:|---:|---:|---:|
-| [roadies.nwk](./roadies.nwk) | ROADIES tree, as inferred, including all 581 species | 1161 | 581 | 579 |substitution unit | [localPP support](doi.org/10.1093/molbev/msw079) |
-| [roadies.dated.nexus](./roadies.dated.nexus) | Dated ROADIES tree in **nexus** format including all 581 species | 1161 | 581 | 579 |Time unit | multi-attribute annotations, including CI |
-| [roadies.dated.nwk](./roadies.dated.nwk) | Dated ROADIES tree including all 581 species | 1161 | 581 | 579 |Time unit | No internal nodes |
-| [vgp-577way.nwk](vgp-577way.nwk) | Cactus guide tree, same as ROADIES, but excludes 6 large genomes, adds a second human and mouse, and renames one. See below| 1153 | 577 | 573 | substitution unit | Cactus Node names |
+| [roadies.nwk](./roadies.nwk) | ROADIES tree, as inferred, including all 581 species  | 581 | 579 |substitution unit | [localPP support](doi.org/10.1093/molbev/msw079) |
+| [roadies.dated.round2.nexus](./roadies.dated.nexus) | Dated ROADIES tree in **nexus** format including all 581 species  | 581 | 579 |Time unit | multi-attribute annotations, including CI |
+| [roadies.dated.round2.nwk](./roadies.dated.nwk) | Dated ROADIES tree including all 581 species  | 581 | 579 |Time unit | No internal nodes |
+| [vgp-577way.nwk](vgp-577way.nwk) | Cactus guide tree, same as ROADIES, but excludes 6 large genomes, adds a second human and mouse, and renames one. See below | 577 | 573 | substitution unit | Cactus Node names |
 
 
 ### [roadies.nwk](./roadies.nwk) 
@@ -52,11 +58,12 @@ This is the tree inferred by [ROADIES](https://turakhia.ucsd.edu/ROADIES/).
 * See [annotations.tsv](annotations.tsv) for an annotation file. 
 	* `GCA_049190665.1` had the wrong label initially (salamanderfish). This genome was later suppressed and replaced with a proper arrowtail genome.
 
-### [roadies.dated.nwk](./roadies.dated.nwk) and [roadies.dated.nexus](./roadies.dated.nexus)
+### [roadies.dated.round2.nwk](./roadies.dated.nwk) and [roadies.dated.round2.nexus](./roadies.dated.nexus)
 
-Same topology as the tree above, but dated to have branch lengths in the SU unit. 
+Same topology as the tree above, but dated with branch lengths in time units. 
 
-* We dated using MD-Cat. See <https://github.com/VGP/vgp-dating/blob/main/dating/README.md>
+* We dated using MD-Cat. See <https://github.com/VGP/vgp-dating/blob/main/dating/README.md> for details. 
+* We performed two rounds of dating. The first round, released on Oct 7, 2026, had fewer calibration points, leading to underestimation of the dates for a couple of nodes. The second round used a similar methodology, with several calibrations added. 
 
 
 ### [vgp-577way.nwk](vgp-577way.nwk)
