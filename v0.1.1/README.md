@@ -7,8 +7,8 @@
 |---|---|---:|---:|---:|---:|---:|
 | [astralpro.l6p1.tre](./astralpro.l6p1.tre) | ASTRAL-Pro tree plus kxProAnne1 (lungfish) | 565 | 561 | substitution unit | [localPP support](doi.org/10.1093/molbev/msw079) |
 | [astralpro.l6p1.perspecies.tre](./astralpro.l6p1.perspecies.tre) | same as above, but eliminating the non-VGP human (`GCA_000001405.15`) and mouse genomes (`GCA_000001635.9`) | 563 | 561 | substitution unit | [localPP support](doi.org/10.1093/molbev/msw079) |
-| [astralpro.l6p1.perspecies.dated.nwk](./astralpro.l6p1.perspecies.dated.nwk) | Dated ASTRAL-Pro tree plus kxProAnne1 (lungfish) | 565 | 561 | time unit | None |
-| [astralpro.l6p1.perspecies.dated.nexus](./astralpro.l6p1.perspecies.dated.nexus) | Dated ASTRAL-Pro tree plus kxProAnne1 (lungfish) in **nexus** format | 565 | 561 | time unit | Multi-attreibute annotations, including date CIs|
+| [astralpro.l6p1.perspecies.dated.nwk](./astralpro.l6p1.perspecies.dated.nwk) | Dated ASTRAL-Pro tree plus kxProAnne1 (lungfish), dropping the two non-VGP genomes | 563 | 561 | time unit | None |
+| [astralpro.l6p1.perspecies.dated.nexus](./astralpro.l6p1.perspecies.dated.nexus) | Dated ASTRAL-Pro tree plus kxProAnne1 (lungfish), dropping the two non-VGP genomes in **nexus** format | 563 | 561 | time unit | Multi-attreibute annotations, including date CIs|
 
 
 
