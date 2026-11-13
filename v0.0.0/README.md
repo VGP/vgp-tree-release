@@ -2,7 +2,7 @@
 ### CRUCIAL NOTES: 
 
 1. We first released a v0.0.0 dated tree, only to later find out that some calibration points could be improved. We then **released a second version of *the dated* tree on Nov, 9, 2026**, changing the name to `roadies.dated.round2.nwk`. The previous files are moved ot the `obsolete` folder. 
-2. The files below used to be called `roadies.v1.1.16b.*`. We renamed the file to avoid future confusion. 
+2. The files below (e.g., `roadies.nwk`) used to be called `roadies.v1.1.16b.*`. We renamed the files, fearing that conflict between version numbers would create confusion in the future. 
 3. The number of species and genomes is not the same because some species (e.g., wolves) have more than one representative. 
 4. There was some confusion about the band-tailed pigeon. The initial ROADIES tree used accession `GCA_036971685.2`, and thus the tree we provided here is labeled with that genome. After the original ROADIES tree was inferred, VGP switched to `GCF_037038585` in subsequent releases. The label in the ROADIES tree is kept for accuracy, but the tip can be renamed to match the new genome, as it is the same species. 
 
