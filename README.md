@@ -1,4 +1,4 @@
-** For analyses related to the flagship paper, use [v0.0.0/](./v0.0.0/) **
+**For analyses related to the flagship paper, use [v0.0.0/](./v0.0.0/).**
 
 |version | description|#leaves | date| 
 |---|---|---:|---:|
