@@ -1,3 +1,5 @@
+** For analyses related to the flagship paper, use [v0.0.0/](./v0.0.0/) **
+
 |version | description|#leaves | date| 
 |---|---|---:|---:|
 | [v0.0.0/](./v0.0.0/) | ROADIES tree, used as a guide for the first Cactus alignment, freeze 1| 581 (577) | Oct 23, 2025 |
